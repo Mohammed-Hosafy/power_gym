@@ -1,0 +1,64 @@
+name: power_gym
+description: "A new Flutter project for Power Gym login/signup screens."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.7.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: ^2.8.2
+  audioplayers: ^6.0.0
+  image_picker: ^1.1.0
+
+  cupertino_icons: ^1.0.8
+  octo_image: ^2.1.0
+  google_fonts: ^5.0.0
+  animated_text_kit: ^4.3.0
+  flutter_animate: ^4.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+
+    - assets/images/P1.png
+    - assets/images/P2.png
+    - assets/images/P3.png
+    - assets/images/P4.png
+    - assets/images/LOGO.jpeg
+    - assets/images/LOGO.png
+
+
+    - assets/videos/FullBodyCardio.mp4
+    - assets/videos/LegsShred.mp4
+    - assets/videos/HIITBurn.mp4
+    - assets/videos/ShouldersCut.mp4
+    - assets/videos/FatBlaster.mp4
+
+    - assets/videos/ChestPower.mp4
+    - assets/videos/BackBuilder.mp4
+    - assets/videos/LegsStrength.mp4
+    - assets/videos/ArmsPump.mp4
+    - assets/videos/ShouldersPress.mp4
+
+    - assets/videos/CoreStability.mp4
+    - assets/videos/LightStrength.mp4
+    - assets/videos/MobilityFlow.mp4
+    - assets/videos/FullBodyMix.mp4
+    - assets/videos/CardioBalance.mp4
+
+
+    - assets/sounds/Music1.mp3
+    - assets/sounds/Music2.mp3
+    - assets/sounds/Music3.mp3
+    - assets/sounds/Music4.mp3
+    - assets/sounds/Music5.mp3
