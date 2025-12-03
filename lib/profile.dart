@@ -4,6 +4,7 @@ import 'package:octo_image/octo_image.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'app_scaffold.dart';
 
+
 class ProfilePage extends StatefulWidget {
   const ProfilePage({super.key});
 
