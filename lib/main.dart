@@ -1,0 +1,31 @@
+import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
+import 'welcome.dart';
+import 'firestore_setup.dart';
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
+
+
+  runApp(const PowerGymApp());
+}
+
+class PowerGymApp extends StatelessWidget {
+  const PowerGymApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Power Gym',
+      theme: ThemeData.dark(),
+      home: const WelcomeScreen(),
+    );
+  }
+}
